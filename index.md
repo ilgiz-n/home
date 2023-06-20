@@ -1,4 +1,4 @@
 ---
-layout: default
 title: Main page
+layout: default
 ---
