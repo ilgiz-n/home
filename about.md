@@ -1,9 +1,13 @@
 ---
-layout: about
+layout: default
 title: "About me"
 permalink: /about/
 ---
+## About me
 
-# About me
+Меня зовут Ильгиз Нигматуллин. Я [краткая информация о вас].
 
-Это страница "About" моей GitHub Pages.
+## Contacts
+
+- GitHub: [ilgiz-n](https://github.com/ilgiz-n)
+- Email: [iznigmatullin@gmail.com](mailto:iznigmatullin@gmail.com)
