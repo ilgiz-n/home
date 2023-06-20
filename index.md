@@ -1,7 +1,4 @@
 ---
-title: Home
----
-
----
+title: "Posts"
 layout: default
 ---
