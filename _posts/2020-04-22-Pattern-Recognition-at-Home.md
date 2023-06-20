@@ -4,7 +4,7 @@ subtitle: "Applying Color Splash Effect to Photographs of Party Balloons and Det
 date: 2020-04-22
 ---
 
->This article was originally published on April 22, 2020 on medium.com
+>This article was originally published on April 22, 2020 on [medium.com](https://medium.com/@ilgiz_n/pattern-recognition-at-home-fe132534ce99)
 
 <p align="center">
   <img src="https://cdn-images-1.medium.com/max/2520/0*WYIB2BDOUXpzqWQE.jpeg" alt="Картинка">
