@@ -11,5 +11,5 @@ permalink: /about/
 
 - GitHub: [ilgiz-n](https://github.com/ilgiz-n)
 - Email: [iznigmatullin@gmail.com](mailto:iznigmatullin@gmail.com)
-- LinkedIn: [Ilgiz Nigmatullin](https://www.linkedin.com/posts/ilgiz-nigmatullin)
+- LinkedIn: (https://www.linkedin.com/in/ilgiz-nigmatullin/)
 - Medium: [ilgiz_n](https://medium.com/@ilgiz_n)
