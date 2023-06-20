@@ -2,5 +2,4 @@ theme: minima
 title: home
 layout: default
 author: Ilgiz Nigmatullin
-permalink: /:title/
 description: description to update
