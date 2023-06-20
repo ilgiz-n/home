@@ -115,7 +115,9 @@ And then, after that, we can compare the original and processed images using the
   <img src="https://cdn-images-1.medium.com/max/2314/1*eFJ8RBZGBc7HPwMqGY-2jg.png" alt="Output">
 </p>
 
-*<p align="center"><em>Output</em></p>*
+<p align="center">
+  <em>Output</em>
+</p>
 
 ### **Links**
 
@@ -232,13 +234,17 @@ Training ends after 160 epochs. There is a notebook *inspect_model.ipynb* in the
   <img src="https://cdn-images-1.medium.com/max/2520/0*UQQPqosAdBJroreR.png" alt="Original image">
 </p>
 
-*<p align="center"><em>Original image</em></p>*
+<p align="center">
+  <em>Original image</em>
+</p>
 
 <p align="center">
   <img src="https://cdn-images-1.medium.com/max/2520/0*CAPOAxZR6M1QnTMv.png" alt="Processed image">
 </p>
 
-*<p align="center"><em>Processed image</em></p>*
+<p align="center">
+  <em>Processed image
+</em></p>
 
 ### Links
 
