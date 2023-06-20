@@ -1,4 +1,6 @@
 theme: minima
-title: title to update
-author: author to update
+title: home
+layout: default
+author: Ilgiz Nigmatullin
+permalink: /:title/
 description: description to update
