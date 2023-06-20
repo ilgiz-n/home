@@ -1,6 +1,6 @@
 ---
 layout: default
-theme: {{ site.theme }}
+theme: {{ site.title }}
 ---
 
 ## About me
