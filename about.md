@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "About me"
 permalink: /about/
 ---
@@ -9,7 +9,7 @@ permalink: /about/
 
 ## Contacts
 
-- GitHub: [ilgiz-n](https://github.com/ilgiz-n)
-- Email: [iznigmatullin@gmail.com](mailto:iznigmatullin@gmail.com)
-- LinkedIn: (https://www.linkedin.com/in/ilgiz-nigmatullin/)
-- Medium: [ilgiz_n](https://medium.com/@ilgiz_n)
+- [GitHub](https://github.com/ilgiz-n)
+- [Email](mailto:iznigmatullin@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/ilgiz-nigmatullin/)
+- [Medium](https://medium.com/@ilgiz_n)
