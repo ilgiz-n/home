@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "About me"
 permalink: /about/
 ---
+## About me
 Меня зовут Ильгиз Нигматуллин. Я [краткая информация о вас].
 
 ## Contacts
