@@ -1,6 +1,7 @@
 ---
-title: Main page
-layout: default
+title: Home
 ---
 
+---
+layout: default
 ---
