@@ -2,3 +2,9 @@ theme: minima
 #title: "Home"
 layout: default
 description: description to update
+footer_links:
+  - title: О проекте
+    url: /about/
+  - title: Контакты
+    url: /contacts/
+
