@@ -10,7 +10,7 @@ date: 2020-04-22
   <img src="https://cdn-images-1.medium.com/max/2520/0*WYIB2BDOUXpzqWQE.jpeg" alt="Картинка">
 </p>
 
-*<p align="center">Peter Brueghel the Younger. “The village alchemist”</p>*
+<p align="center"><em>Peter Brueghel the Younger. “The village alchemist”</em></p>
 
 You have probably already met on Twitter or LinkedIn with a meme where COVID-19 is indicated as accountable for the digital transformation of a company.
 
@@ -113,7 +113,7 @@ And then, after that, we can compare the original and processed images using the
   <img src="https://cdn-images-1.medium.com/max/2314/1*eFJ8RBZGBc7HPwMqGY-2jg.png" alt="Output">
 </p>
 
-*<p align="center">Output</p>*
+*<p align="center"><em>Output</em></p>*
 
 ### **Links**
 
@@ -230,13 +230,13 @@ Training ends after 160 epochs. There is a notebook *inspect_model.ipynb* in the
   <img src="https://cdn-images-1.medium.com/max/2520/0*UQQPqosAdBJroreR.png" alt="Original image">
 </p>
 
-*<p align="center">Original image</p>*
+*<p align="center"><em>Original image</em></p>*
 
 <p align="center">
   <img src="https://cdn-images-1.medium.com/max/2520/0*CAPOAxZR6M1QnTMv.png" alt="Processed image">
 </p>
 
-*<p align="center">Processed image</p>*
+*<p align="center"><em>Processed image</em></p>*
 
 ### Links
 
