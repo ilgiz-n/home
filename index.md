@@ -1,5 +1,5 @@
 ---
-title: Main page
+title: home
 ---
 # Hi there!
 
