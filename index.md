@@ -1,4 +1,8 @@
 ---
-layout: default
-title: main
+title: Добро пожаловать!
 ---
+
+---
+layout: default
+---
+
