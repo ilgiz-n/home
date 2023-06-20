@@ -2,16 +2,16 @@
 layout: default
 ---
 
-# Hi there!
+## About me
 
 Меня зовут Ильгиз Нигматуллин. Я [краткая информация о вас].
 
-## Контакты
+## Contacts
 
 - GitHub: [ilgiz-n](https://github.com/ilgiz-n)
 - Email: [iznigmatullin@gmail.com](mailto:iznigmatullin@gmail.com)
 
-## Мои записи на Medium
+## Blog posts
 
 - [Maire Tecnimont has announced](https://www.linkedin.com/posts/ilgiz-nigmatullin_amurgcc-mairetecnimont-petrochemical-activity-6663440831984214016-gmTi?utm_source=share&utm_medium=member_desktop)
 - [Pattern Recognition at Home](https://medium.com/@ilgiz_n/pattern-recognition-at-home-fe132534ce99)
