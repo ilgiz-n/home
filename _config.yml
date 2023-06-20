@@ -1,10 +1,7 @@
 theme: minima
-#title: "Home"
+title: "<Ilgiz Nigmatullin>"
 layout: default
-description: description to update
-footer_links:
-  - title: О проекте
-    url: /about/
-  - title: Контакты
-    url: /contacts/
+description: Some ideas of how to make the better decisions
+author: Ilgiz Nigmatullin
+email: iznigmatullin@gmail.com
 
