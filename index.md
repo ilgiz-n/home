@@ -1,6 +1,8 @@
 ---
-title: home
+layout: default
+title: {{ site.title }}
 ---
+
 # Hi there!
 
 Меня зовут Ильгиз Нигматуллин. Я [краткая информация о вас].
