@@ -1,13 +1,16 @@
 ---
-title: "TEST-TITLE"
-date: 2023-06-20
+title: "Pattern Recognition at Home"
+subtitle: "Applying Color Splash Effect to Photographs of Party Balloons and Detecting Weld Defects in X-Rays Images"
+date: 2020-04-22
 ---
 
-## Pattern Recognition at Home
+>This article was originally published on April 22, 2020 on medium.com
 
-### Applying Color Splash Effect to Photographs of Party Balloons and Detecting Weld Defects in X-Rays Images
+<p align="center">
+  <img src="https://cdn-images-1.medium.com/max/2520/0*WYIB2BDOUXpzqWQE.jpeg" alt="Картинка">
+</p>
 
-![Peter Brueghel the Younger. “The village alchemist”](https://cdn-images-1.medium.com/max/2520/0*WYIB2BDOUXpzqWQE.jpeg)
+*<p align="center">Peter Brueghel the Younger. “The village alchemist”</p>*
 
 You have probably already met on Twitter or LinkedIn with a meme where COVID-19 is indicated as accountable for the digital transformation of a company.
 
@@ -19,11 +22,15 @@ Nowadays, almost everyone can deal with some simple AI tasks. The recipe is rath
 
 *For instance, with just a few lines of code, you can change in a photo of party balloons the color of the background to black and white …*
 
-![](https://cdn-images-1.medium.com/max/2000/0*P9_9UBzd9xgyDoim.gif)
+<p align="center">
+  <img src="https://cdn-images-1.medium.com/max/2000/0*P9_9UBzd9xgyDoim.gif" alt="Картинка">
+</p>
 
 *… or detect weld defects in an X-ray image*
 
-![](https://cdn-images-1.medium.com/max/2000/0*kACMWLayLExKdcMl.png)
+<p align="center">
+  <img src="https://cdn-images-1.medium.com/max/2000/0*kACMWLayLExKdcMl.png" alt="Картинка">
+</p>
 
 Next, I will try to show you how to get the same results by yourself.
 
@@ -37,15 +44,20 @@ Let’s get started with the simplest task — launching a trained and ready-to-
 
 First, create a new notebook on Google Colab.
 
-![](https://cdn-images-1.medium.com/max/2000/0*gORSvyXOT5ly-Vfk.png)
->  Collaboratory, or “Collab” for short, allows you to write and execute Python in your browser. In “Collab”, the environment for running Python code works out-of-the-box, you get a free graphics accelerator such as NVidia Tesla K80.
+<p align="center">
+  <img src="https://cdn-images-1.medium.com/max/2000/0*gORSvyXOT5ly-Vfk.png" alt="Картинка">
+</p>
+
+>Collaboratory, or “Collab” for short, allows you to write and execute Python in your browser. In “Collab”, the environment for running Python code works out-of-the-box, you get a free graphics accelerator such as NVidia Tesla K80.
 
 TensorFlow 1.x is required in the model used, therefore, in order to avoid code execution errors, we indicate the required version in the very first line.
->  A new code cell can be created by keys*Ctrl + A *(new cell above)*/Ctrl + В *(new cell below)*, *or by clicking *+ Code* under the main bar, or by **Insert** menu.
+
+>A new code cell can be created by keys *Ctrl + A* (new cell above)/*Ctrl + В* (new cell below), or by clicking *+ Code* under the main bar, or by **Insert** menu.
 
     # run this cell once again in case of error "AttributeError: module 'tensorflow' has no attribute 'placeholder'" 
     %tensorflow_version 1.x
->  Code is executed line by line by pressing the key *Ctrl + Enter, *whole code - by the keys *Ctrl + F9*
+
+>Code is executed line by line by pressing the key *Ctrl + Enter*, whole code - by the keys *Ctrl + F9*
 
 Next, specify the URL for an image of balloons. You can easily replace it with yours.
 
@@ -97,49 +109,55 @@ And then, after that, we can compare the original and processed images using the
     ax2.imshow(img_splash) 
     plt.show()
 
-![Output](https://cdn-images-1.medium.com/max/2314/1*eFJ8RBZGBc7HPwMqGY-2jg.png)
+<p align="center">
+  <img src="https://cdn-images-1.medium.com/max/2314/1*eFJ8RBZGBc7HPwMqGY-2jg.png" alt="Output">
+</p>
+
+*<p align="center">Output</p>*
 
 ### **Links**
 
-* A description of the Mask RCNN model architecture and of the presented task is presented in the following article, I highly recommend you be familiarized with.
-[**Splash of Color: Instance Segmentation with Mask R-CNN and TensorFlow**
-*Explained by building a color splash filter*engineering.matterport.com](https://engineering.matterport.com/splash-of-color-instance-segmentation-with-mask-r-cnn-and-tensorflow-7c761e238b46)
+* A description of the Mask RCNN model architecture and of the presented task is presented in the following article, I highly recommend you be familiarized with - [**Splash of Color: Instance Segmentation with Mask R-CNN and TensorFlow**](https://engineering.matterport.com/splash-of-color-instance-segmentation-with-mask-r-cnn-and-tensorflow-7c761e238b46)
 
-* Mask RCNN repo on GitHub
-[**matterport/Mask_RCNN**
-*This is an implementation of Mask R-CNN on Python 3, Keras, and TensorFlow. The model generates bounding boxes and…*github.com](https://github.com/matterport/Mask_RCNN)
+* Mask RCNN repo on GitHub - [**matterport/Mask_RCNN**](https://github.com/matterport/Mask_RCNN)
 
-* Notebook with the code
-[**Google Colaboratory**
-*Part 1 Notebook*colab.research.google.com](https://colab.research.google.com/drive/1xPkv1V-eIcuBRVn4cL4BmzL49R5IdiJo)
+* Notebook with the code - [**Google Colaboratory**](https://colab.research.google.com/drive/1xPkv1V-eIcuBRVn4cL4BmzL49R5IdiJo)
 
 ## Part 2. Looking for Weld Defects in X-Rays Images
 
 Here we use the defect detection system which is a fork of Matterport Mask RCNN used in the previous task.
 
 Unlike the previous task, we will train a model. There are restrictions on using Google Colab. The time of Colab virtual machine sessions is limited to a maximum of 12 hours of use, after which all data is reset. The training takes a total of about 26 hours of machine time to carry on. Therefore, we will need to create checkpoints (configured by default), and Google Drive is well-suited for storing them.
->  Google Drive provides for free 15 GiB of disk space, the total amount of space occupied by control points after 160 epochs of training can be 38 GiB. Thus, as the disk becomes full, it is necessary to free up space by deleting previous checkpoints (except the last one) or increase the storage limit by subscribing to Google One (checkpoints may be used for data visualization in Tensorboard).
+
+>Google Drive provides for free 15 GiB of disk space, the total amount of space occupied by control points after 160 epochs of training can be 38 GiB. Thus, as the disk becomes full, it is necessary to free up space by deleting previous checkpoints (except the last one) or increase the storage limit by subscribing to Google One (checkpoints may be used for data visualization in Tensorboard).
 
 ### Google Drive
 
 First, add a shortcut to the folder with the [GDXray data set](https://drive.google.com/drive/folders/1OaWO8hO8RM_XYGSJaIhq8u97hPOGPsfS?usp=sharing) on your Drive disk. This will allow us not to download this dataset and not to occupy disk space.
 
-![](https://cdn-images-1.medium.com/max/3068/1*lVZ6rdQzxs96iWdcnD4Bww.png)
+<p align="center">
+  <img src="https://cdn-images-1.medium.com/max/3068/1*lVZ6rdQzxs96iWdcnD4Bww.png" alt="Pic">
+</p>
 
 ### Colab
 
 As in the previous task, create a new notebook.
->  On Colab, a CPU is used as default runtime. To train a model, a GPU or a TPU accelerator should be chosen. Google claims TPU makes calculations faster compared to GPU, but it requires the model to be tuned for TPU.
+
+>On Colab, a CPU is used as default runtime. To train a model, a GPU or a TPU accelerator should be chosen. Google claims TPU makes calculations faster compared to GPU, but it requires the model to be tuned for TPU.
 
 Choosing runtime type (**Runtime** **>** **Change runtime type**).
 
-![](https://cdn-images-1.medium.com/max/2000/0*VEQS3MuBvFXHGu4x.png)
+<p align="center">
+  <img src="https://cdn-images-1.medium.com/max/2000/0*VEQS3MuBvFXHGu4x.png" alt="Pic">
+</p>
 
 Select a GPU graphics accelerator in the drop-down list.
 
-![](https://cdn-images-1.medium.com/max/2000/0*foU86erFPr3eIhTF.png)
+<p align="center">
+  <img src="https://cdn-images-1.medium.com/max/2000/0*foU86erFPr3eIhTF.png" alt="Pic">
+</p>
 
-Connect to a virtual machine using the button Connect*.*
+Connect to a virtual machine using the button *Connect*.
 
 Choose the required version of TensorFlow.
 
@@ -147,7 +165,8 @@ Choose the required version of TensorFlow.
     %tensorflow_version 1.x
 
 Here, we need to configure the environment by specifying libraries version.
->  Libraries version is taken from [environment.yml](https://github.com/maxkferg/metal-defect-detection/blob/master/environment.yml) file.* *This file is used to configure an environment in* [*Anaconda](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution))*.*
+
+>Libraries version is taken from [environment.yml](https://github.com/maxkferg/metal-defect-detection/blob/master/environment.yml) file. This file is used to configure an environment in [Anaconda](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution)).
 
     !pip install scipy==1.1.0 
     !pip install opencv-python==4.1.0.25 
@@ -207,23 +226,25 @@ Training ends after 160 epochs. There is a notebook *inspect_model.ipynb* in the
 
 ### Defect Detecting Results
 
-![Original image](https://cdn-images-1.medium.com/max/2520/0*UQQPqosAdBJroreR.png)
+<p align="center">
+  <img src="https://cdn-images-1.medium.com/max/2520/0*UQQPqosAdBJroreR.png" alt="Original image">
+</p>
 
-![Processed image](https://cdn-images-1.medium.com/max/2520/0*CAPOAxZR6M1QnTMv.png)
+*<p align="center">Original image</p>*
+
+<p align="center">
+  <img src="https://cdn-images-1.medium.com/max/2520/0*CAPOAxZR6M1QnTMv.png" alt="Processed image">
+</p>
+
+*<p align="center">Processed image</p>*
 
 ### Links
 
-* Metal Defects Detection project repo on GitHub
-[**maxkferg/metal-defect-detection**
-*This project uses the Mask R-CNN framework to automatically detect casting defects in X-Ray images. The defect…*github.com](https://github.com/maxkferg/metal-defect-detection)
+* Metal Defects Detection project repo on GitHub - [**maxkferg/metal-defect-detection**](https://github.com/maxkferg/metal-defect-detection)
 
-* Notebook on Google Colab
-[**Google Colaboratory**
-*Part 2 Notebook*colab.research.google.com](https://colab.research.google.com/drive/1vYqUyDEgUX0Mbd3m02IuzPFdVIPbX7YV)
+* Notebook on Google Colab - [**Google Colaboratory**](https://colab.research.google.com/drive/1vYqUyDEgUX0Mbd3m02IuzPFdVIPbX7YV)
 
-* If you don’t want to train a model, then download one of the checkpoints by the following link. The checkpoint is used in *inspect_model_weld.ipynb *notebook, after copying the checkpoint file to the disk, set the path to the file in the LOG_DIR variable.
-[**mask_rcnn_gdxray_0137.h5**
-*Edit description*drive.google.com](https://drive.google.com/file/d/1zvOVgFrzQcWOGiNYNaCyPEogMUSS3IYX/view?usp=drive_open)
+* If you don’t want to train a model, then download one of the checkpoints by the following link. The checkpoint is used in *inspect_model_weld.ipynb* notebook, after copying the checkpoint file to the disk, set the path to the file in the LOG_DIR variable - [**mask_rcnn_gdxray_0137.h5**](https://drive.google.com/file/d/1zvOVgFrzQcWOGiNYNaCyPEogMUSS3IYX/view?usp=drive_open)
 
 ## In Conclusion
 
