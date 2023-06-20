@@ -1,5 +1,13 @@
 theme: minima
-title: home
+#title: home
+title: Blog
+url: /blog/
+title: Theme Setup
+url: /theme-setup/
+title: BuildIt
+url: /buildit/
+title: Search
+url: /search/
 author: Ilgiz Nigmatullin
 permalink: /:title/
 description: description to update
