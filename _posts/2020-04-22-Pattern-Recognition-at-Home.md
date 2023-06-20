@@ -10,7 +10,9 @@ date: 2020-04-22
   <img src="https://cdn-images-1.medium.com/max/2520/0*WYIB2BDOUXpzqWQE.jpeg" alt="Картинка">
 </p>
 
-<p align="center"><em>Peter Brueghel the Younger. “The village alchemist”</em></p>
+<p align="center">
+  <em>Peter Brueghel the Younger. “The village alchemist”</em>
+</p>
 
 You have probably already met on Twitter or LinkedIn with a meme where COVID-19 is indicated as accountable for the digital transformation of a company.
 
