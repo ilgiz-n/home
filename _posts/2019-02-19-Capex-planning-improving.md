@@ -1,7 +1,7 @@
 ---
 title: "Rosneft Financial Report 2018: Potential for Capitalization Growth"
 date: 2019-02-05
-tags: [tag1, tag2, tag3]
+tags: ["economics", "planning"]
 ---
 
 >This article was originally published on February 15, 2019 on [blogspot.com](https://stroylabs.blogspot.com/2019/02/5-2018-4.html)
