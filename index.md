@@ -1,5 +1,5 @@
 ---
-list_title: Recent Posts
+list_title: Posts
 title: ''
 ---
 
