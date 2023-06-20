@@ -1,5 +1,6 @@
 theme: minima
-title: home
+title: "Ilgiz Nigmatullin"
+title_separator: "-"
+name: &name "Ilgiz Nigmatullin"
 layout: default
-author: Ilgiz Nigmatullin
-description: description to update
+#description: description to update
