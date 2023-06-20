@@ -1,6 +1,6 @@
 theme: minima
 name: Exupery
-#title: home
+title: home
 author: Ilgiz Nigmatullin
 permalink: /:title/
 description: description to update
