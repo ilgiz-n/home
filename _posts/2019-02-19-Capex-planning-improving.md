@@ -1,7 +1,6 @@
 ---
 title: "Rosneft Financial Report 2018: Potential for Capitalization Growth"
 date: 2019-02-05
-tags: "economics"
 ---
 
 >This article was originally published on February 15, 2019 on [blogspot.com](https://stroylabs.blogspot.com/2019/02/5-2018-4.html)
@@ -24,7 +23,7 @@ Therefore, it can be assumed that improving the quality of capital expenditure p
 
 In my opinion, an appropriate indicator for this purpose could be the ratio of the volume of assets under construction to capital expenditures (AUC/CE). This measure reflects the number of rubles invested in unfinished construction works in relation to one ruble of capital investments and also characterizes the average duration of construction projects within the company. In fact, this indicator corresponds to the unfinished construction works indicator previously used in the USSR. The normative values of this indicator, depending on the industry and the duration of construction projects, are presented in VSN 411-81 "Norms of Reserves in Construction by Sectors of the National Economy."
 
-[![](https://3.bp.blogspot.com/-ddUycqHwqNI/XGgCA4KtFWI/AAAAAAAACVk/Z_j5DK3l7gU_cMVUTWQoiaqZc6QhegQngCLcBGAs/s640/%25D1%25814.png)](https://3.bp.blogspot.com/-ddUycqHwqNI/XGgCA4KtFWI/AAAAAAAACVk/Z_j5DK3l7gU_cMVUTWQoiaqZc6QhegQngCLcBGAs/s1600/%25D1%25814.png)\
+[![](https://3.bp.blogspot.com/-ddUycqHwqNI/XGgCA4KtFWI/AAAAAAAACVk/Z_j5DK3l7gU_cMVUTWQoiaqZc6QhegQngCLcBGAs/s640/%25D1%25814.png)](https://3.bp.blogspot.com/-ddUycqHwqNI/XGgCA4KtFWI/AAAAAAAACVk/Z_j5DK3l7gU_cMVUTWQoiaqZc6QhegQngCLcBGAs/s1600/%25D1%25814.png)
 
 
 **Part 2. Potential Reduction in the Level of AUC**
