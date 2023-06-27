@@ -15,7 +15,7 @@ Hello, there! 👋
 
 I hope you're all doing well and enjoying your professional journey. Today, I wanted to share some useful resources that allow you to optimize your material usage and save time and resources. Check them out:
 
-1️⃣ Opticutter - Linear Cut List Calculator: Website: <https://www.opticutter.com/linear-cut-list-calculato>
+1️⃣ Opticutter - Linear Cut List Calculator: Website: [https://www.opticutter.com/linear-cut-list-calculator](https://www.opticutter.com/linear-cut-list-calculator)
 
 Opticutter is a versatile cutting optimization tool that solves both 1D (linear) and 2D (sheets) cutting optimization problems. Opticutter can assist you in finding the most efficient cutting patterns for various materials. While the free plan is available, it does have limits, specifically a maximum number of all required parts set at 500. For more extensive cutting operations, they offer premium plans to meet your needs.
 
