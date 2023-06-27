@@ -1,7 +1,17 @@
 ---
-title: 🔧📐 Cut to Perfection: Unveiling the Power of Cutting Stock Calculators! 🔬🤖
+
 date: 2023-06-27
 ---
+# 🔧📐 Cut to Perfection: Unveiling the Power of Cutting Stock Calculators! 🔬🤖
+
+
+>This article was originally published on June 27, 2023 on [linkedin.com](https://www.linkedin.com/pulse/cut-perfection-unveiling-power-cutting-stock-ilgiz-nigmatullin)
+
+
+<p align="center">
+  <img src="https://media.licdn.com/dms/image/D4E12AQHIYPte15EPQQ/article-cover_image-shrink_600_2000/0/1687851932456?e=1693440000&v=beta&t=THsM_gSYV5vzzDvbnb-OQesNDXMDNfpFOw5gVH0Umys" alt="Картинка">
+</p>
+
 
 Hello, there! 👋
 
