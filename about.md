@@ -10,6 +10,6 @@ Over 10 years of construction industry experience, working on large industrial p
 ## Social links
 
 - [Email](mailto:iznigmatullin@gmail.com)
-- [GitHub](https://github.com/ilgiz-n)
+- [GitHub](https://github.com/inigmat)
 - [LinkedIn](https://www.linkedin.com/in/ilgiz-nigmatullin/)
 - [Medium](https://medium.com/@ilgiz_n)
