@@ -10,7 +10,10 @@ On February 5, Rosneft published its financial report for the year 2018, resulti
 
 Here is the presentaion:
 
-<iframe src="https://onedrive.live.com/embed?resid=6894315705061412%219604&amp;authkey=!APuQmDptQkp0gX4&amp;em=2&amp;wdAr=1.4444444444444444" frameborder="0" allowfullscreen>Это внедренный файл <a target="_blank" href="https://office.com">Microsoft Office</a> на платформе <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+<iframe src="https://onedrive.live.com/embed?resid=6894315705061412%219604&amp;authkey=%21APuQmDptQkp0gX4&amp;em=2&amp;wdAr=1.4444444444444444&amp;wdEaaCheck=0" width="740px" height="447px" frameborder="0">Это внедренный файл <a target="_blank" href="https://office.com">Microsoft Office</a> на платформе <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+
+
+<iframe src="https://onedrive.live.com/embed?resid=6894315705061412%219604&amp;authkey=%21APuQmDptQkp0gX4&amp;em=2&amp;wdAr=1.4444444444444444&amp;wdEaaCheck=1" width="740px" height="447px" frameborder="0">Это внедренный файл <a target="_blank" href="https://office.com">Microsoft Office</a> на платформе <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
 
 **Part 1. Measuring the quality of project planning.**
 
