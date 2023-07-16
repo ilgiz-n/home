@@ -68,7 +68,7 @@ To see the full code and results, you can refer to the Jupyter notebook availabl
 
 After optimization, we obtained the following results for the required number of reinforcement bars and the total scrap percentage for each diameter:
 
-```python
+```
 Required number of reinforcement bars with diameter 10 mm: 168 pcs
 Total scrap: 2.32%
 Required number of reinforcement bars with diameter 12 mm: 138 pcs.
@@ -86,7 +86,7 @@ We also generated a chart showing the cutting plan for the bars.
 </p>
 
 <p align="center">
-  <em>For a more detailed view of the data: https://docs.google.com/spreadsheets/d/1pVxdnsfdEvEntjyNfpz_MTDin3x5JktN83TTT8Kvy3U/edit?usp=sharing</em>
+  <em>For a more detailed view of the data: <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTj-Fr6BGuoJlJdEglvPbYqOPi1k0Gwjb4lcTJ2aR8upi6esjDX2p8qej6nsMFF2NqCcjJrPBzsPSTQ/pubhtml?gid=1092469187&single=true">link</a> </em>
 </p>
 
 ### Part 3. Looking under the hood
