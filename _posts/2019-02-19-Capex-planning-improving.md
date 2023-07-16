@@ -4,7 +4,8 @@ date: 2019-02-05
 ---
 
 >This article was originally published on February 15, 2019 on [blogspot.com](https://stroylabs.blogspot.com/2019/02/5-2018-4.html)
-TODO: update the data and translate graphics
+
+>TODO: update the data and translate graphics
 
 On February 5, Rosneft published its financial report for the year 2018, resulting in a [market capitalization growth of over 4%](https://www.vedomosti.ru/business/news/2019/02/05/793347-rosneft-podorozhala-posle-publikatsii) on that day. In my humble opinion, the company has the potential for capitalization growth through the implementation of measures to reduce assets under construction (AUC).
 
