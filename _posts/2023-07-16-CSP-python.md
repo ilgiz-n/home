@@ -1,5 +1,7 @@
-🔧Mastering Material Usage Optimization For Your Projects. A Python-Powered Solution 💡✨
-========================================================================================
+---
+title: Mastering Material Usage Optimization For Your Projects - A Python-Powered Solution
+date: 2023-07-16
+---
 
 >This article was originally published on July 15, 2023 on [linkedin.com](https://www.linkedin.com/pulse/mastering-material-usage-optimization-your-projects-ilgiz-nigmatullin)
 
