@@ -15,7 +15,18 @@ Here is the presentaion:
 <button onclick="toggleVisibility()">Скрыть/Показать</button>
 <div id="myElement" hidden>Этот элемент может быть скрыт или показан</div>
 
-<iframe src="https://onedrive.live.com/embed?resid=6894315705061412%219604&amp;authkey=%21APuQmDptQkp0gX4&amp;em=2&amp;wdAr=1.4444444444444444&amp;wdEaaCheck=1" width=100% height=100% frameborder="0">Это внедренный файл <a target="_blank" href="https://office.com">Microsoft Office</a> на платформе <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+<button onclick="toggleVisibility()">Скрыть/Показать</button>
+<iframe src="https://onedrive.live.com/embed?resid=6894315705061412%219604&amp;authkey=%21APuQmDptQkp0gX4&amp;em=2&amp;wdAr=1.4444444444444444&amp;wdEaaCheck=1" width="740px" height="447px" frameborder="0">Это внедренный файл <a target="_blank" href="https://office.com">Microsoft Office</a> на платформе <a target="_blank" href="https://office.com/webapps" hidden>Office</a>.</iframe>
+<script>
+function toggleVisibility() {
+  var frame = document.getElementById("myFrame");
+  if (frame.hasAttribute("hidden")) {
+    frame.removeAttribute("hidden");
+  } else {
+    frame.setAttribute("hidden", true);
+  }
+}
+</script>
 
 **Part 1. Measuring the quality of project planning.**
 
