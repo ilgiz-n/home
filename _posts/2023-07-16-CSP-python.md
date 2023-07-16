@@ -82,11 +82,14 @@ Total scrap: 4.82%.
 We also generated a chart showing the cutting plan for the bars.
 
 <p align="center">
-  <img src="https://media.licdn.com/dms/image/D4E12AQHw04l3XegRkg/article-inline_image-shrink_1000_1488/0/1689402028786?e=1695254400&v=beta&t=BKaud21xLZyBllcGnR9JzNjJztdF-qCxmEqxR5LfJ-s" alt="Картинка">
+  <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTj-Fr6BGuoJlJdEglvPbYqOPi1k0Gwjb4lcTJ2aR8upi6esjDX2p8qej6nsMFF2NqCcjJrPBzsPSTQ/pubhtml?gid=1092469187&single=true">
+    <img src="https://media.licdn.com/dms/image/D4E12AQHw04l3XegRkg/article-inline_image-shrink_1000_1488/0/1689402028786?e=1695254400&v=beta&t=BKaud21xLZyBllcGnR9JzNjJztdF-qCxmEqxR5LfJ-s" alt="Картинка">
+  </a>
 </p>
 
 <p align="center">
-  <em>For a more detailed view of the data: <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTj-Fr6BGuoJlJdEglvPbYqOPi1k0Gwjb4lcTJ2aR8upi6esjDX2p8qej6nsMFF2NqCcjJrPBzsPSTQ/pubhtml?gid=1092469187&single=true">link</a> </em>
+  <em>For a more detailed view of the data: <a href="https://docs.google.com/spreadsheets/d/1pVxdnsfdEvEntjyNfpz_MTDin3x5JktN83TTT8Kvy3U/edit?usp=sharing">link</a> 
+  </em>
 </p>
 
 ### Part 3. Looking under the hood
