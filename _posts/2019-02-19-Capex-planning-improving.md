@@ -8,15 +8,10 @@ TODO: update the data and translate graphics
 
 On February 5, Rosneft published its financial report for the year 2018, resulting in a [market capitalization growth of over 4%](https://www.vedomosti.ru/business/news/2019/02/05/793347-rosneft-podorozhala-posle-publikatsii) on that day. In my humble opinion, the company has the potential for capitalization growth through the implementation of measures to reduce assets under construction (AUC).
 
-Here is the presentaion:
-
-<iframe src="https://onedrive.live.com/embed?resid=6894315705061412%219604&amp;authkey=%21APuQmDptQkp0gX4&amp;em=2&amp;wdAr=1.4444444444444444&amp;wdEaaCheck=0" width="740px" height="447px" frameborder="0">Это внедренный файл <a target="_blank" href="https://office.com">Microsoft Office</a> на платформе <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+<a href="#bottom">Go to the presentaion to check it out</a>
 
 <button onclick="toggleVisibility()">Скрыть/Показать</button>
-<div id="myElement" hidden>Этот элемент может быть скрыт или показан</div>
-
-<button onclick="toggleVisibility()">Скрыть/Показать</button>
-<iframe src="https://onedrive.live.com/embed?resid=6894315705061412%219604&amp;authkey=%21APuQmDptQkp0gX4&amp;em=2&amp;wdAr=1.4444444444444444&amp;wdEaaCheck=1" width="740px" height="447px" frameborder="0">Это внедренный файл <a target="_blank" href="https://office.com">Microsoft Office</a> на платформе <a target="_blank" href="https://office.com/webapps" hidden>Office</a>.</iframe>
+<iframe src="https://onedrive.live.com/embed?resid=6894315705061412%219604&amp;authkey=%21APuQmDptQkp0gX4&amp;em=2&amp;wdAr=1.4444444444444444&amp;wdEaaCheck=1" width="740px" height="447px" frameborder="0" hidden></iframe>
 <script>
 function toggleVisibility() {
   var frame = document.getElementById("myFrame");
@@ -87,3 +82,6 @@ The table with calculations is available at the following [link](https://drive.g
 **Conclusion.**
 
 To conclude, based on the financial report published by Rosneft for the year 2018, it is evident that there is a potential for capitalization growth within the company. This potential can be realized through the implementation of measures aimed at reducing the level of assets under construction (AUC). By improving capital expenditure planning and effectively managing AUC, Rosneft can generate a positive economic impact, leading to an increase in the company's overall value. However, it is crucial for Rosneft to carefully execute and closely monitor the proposed measures in order to fully capitalize on this potential for growth.
+
+<p id="bottom">Here is the presentaion:</p>
+<iframe src="https://onedrive.live.com/embed?resid=6894315705061412%219604&amp;authkey=%21APuQmDptQkp0gX4&amp;em=2&amp;wdAr=1.4444444444444444&amp;wdEaaCheck=0" width="740px" height="447px" frameborder="0">Это внедренный файл <a target="_blank" href="https://office.com">Microsoft Office</a> на платформе <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
