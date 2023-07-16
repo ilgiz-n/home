@@ -4,10 +4,17 @@ date: 2019-02-05
 ---
 
 >This article was originally published on February 15, 2019 on [blogspot.com](https://stroylabs.blogspot.com/2019/02/5-2018-4.html)
+TODO: update the data and translate graphics
 
 On February 5, Rosneft published its financial report for the year 2018, resulting in a [market capitalization growth of over 4%](https://www.vedomosti.ru/business/news/2019/02/05/793347-rosneft-podorozhala-posle-publikatsii) on that day. In my humble opinion, the company has the potential for capitalization growth through the implementation of measures to reduce assets under construction (AUC).
 
-**Part 1. Measuring the quality of capital expenditure planning.**
+Here is the presentaion:
+
+<iframe src="https://onedrive.live.com/embed?resid=6894315705061412%219604&amp;authkey=!APuQmDptQkp0gX4&amp;em=2&amp;wdAr=1.4444444444444444" width="476px" height="288px" frameborder="0">Это внедренный файл <a target="_blank" href="https://office.com">Microsoft Office</a> на платформе <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+
+[https://1drv.ms/p/s!AhIUBgVXMZRoywREv_tanHbgFlP0?e=d2gKuI&nav=eyJzSWQiOjMwNSwiY0lkIjoxMDAwNzc0MjJ9](https://1drv.ms/p/s!AhIUBgVXMZRoywREv_tanHbgFlP0?e=d2gKuI&nav=eyJzSWQiOjMwNSwiY0lkIjoxMDAwNzc0MjJ9)
+
+**Part 1. Measuring the quality of project planning.**
 
 A few years ago, I conducted a small study on improving the quality of capital expenditure planning. The study proposed integrating estimated data (cost, labor and material resources, physical volumes) with the construction project's network schedule. The objective was to utilize both planned data from estimates and actual data from work completion certificates. Additionally, specialized software was identified and tested to automate this process.
 
