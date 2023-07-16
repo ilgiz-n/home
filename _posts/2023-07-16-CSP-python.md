@@ -7,7 +7,7 @@ date: 2023-07-16
 
 ### Intro
 
-In the previous [post](https://www.linkedin.com/pulse/cut-perfection-unveiling-power-cutting-stock-ilgiz-nigmatullin), I shared links to some ready-to-use online calculators that provide a quick tool for finding the optimal amount of materials to order for your project. However, what if you want to add additional features to these calculators or work around limitations like the number of parts? In this article, I will show you how to write Python code to solve this problem and create your own flexible solution.
+In the previous [post](https://inigmat.github.io/home/2023/06/27/Cutting_calcs.html), I shared links to some ready-to-use online calculators that provide a quick tool for finding the optimal amount of materials to order for your project. However, what if you want to add additional features to these calculators or work around limitations like the number of parts? In this article, I will show you how to write Python code to solve this problem and create your own flexible solution.
 
 To illustrate the process, we will use the example of a bar schedule for concrete foundations, where we need to cut rebar with specific lengths and quantities.
 
