@@ -9,14 +9,14 @@ date: 2023-07-16
   .trimmed-cover {
   object-fit: cover;
   width: 100%;
-  height: 400px;
+  height: 410px;
   overflow: hidden;
   object-position: center 40%;
 }
 </style>
 
 <div class="trimmed-cover">
-  <img src="https://github.com/inigmat/home/assets/62841094/fe487086-a2b1-492d-94aa-3e6c07b7da50" alt="Tetris">
+  <img src="https://media.licdn.com/dms/image/D4E12AQGRiLb98y0mIg/article-cover_image-shrink_720_1280/0/1689256150839?e=1695254400&v=beta&t=_tRuoeDDpoDlIMHphobFEC7xoXJxOXC8HLo3uwsy6r0" alt="Tetris">
 </div>
 
 <p align="center">
