@@ -19,11 +19,10 @@ date: 2023-07-16
   }
 </style>
 
-<p align="center">
 <div class="image-container">
-  <img src="https://github.com/inigmat/home/assets/62841094/fe487086-a2b1-492d-94aa-3e6c07b7da50" alt="Tetris" width="900" height="600">
+  <img src="https://github.com/inigmat/home/assets/62841094/fe487086-a2b1-492d-94aa-3e6c07b7da50" alt="Tetris">
 </div>
-</p>
+
 
 <p align="center">
   <em>Tetris Vectors by Vecteezy: https://www.vecteezy.com/free-vector/tetris</em>
