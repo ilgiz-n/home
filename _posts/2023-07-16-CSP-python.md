@@ -17,9 +17,20 @@ date: 2023-07-16
     height: 100%;
     object-fit: cover;
   }
+
+  .trimmed-cover {
+  object-fit: cover;
+  width: 100%;
+  height: 177px;
+  overflow: hidden;
+  object-position: center 40%;
+}
 </style>
 
-<div class="image-container">
+
+
+
+<div class="trimmed-cover">
   <img src="https://github.com/inigmat/home/assets/62841094/fe487086-a2b1-492d-94aa-3e6c07b7da50" alt="Tetris">
 </div>
 
