@@ -9,7 +9,7 @@ date: 2023-07-16
   .trimmed-cover {
   object-fit: cover;
   width: 100%;
-  height: 410px;
+  height: 384px;
   overflow: hidden;
   object-position: center 40%;
 }
