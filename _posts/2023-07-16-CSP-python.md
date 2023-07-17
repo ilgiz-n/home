@@ -6,34 +6,18 @@ date: 2023-07-16
 >This article was originally published on July 15, 2023 on [linkedin.com](https://www.linkedin.com/pulse/mastering-material-usage-optimization-your-projects-ilgiz-nigmatullin)
 
 <style>
-  .image-container {
-    width: 900px;
-    height: 600px;
-    overflow: hidden;
-  }
-
-  .image-container img {
-    width: auto;
-    height: 100%;
-    object-fit: cover;
-  }
-
   .trimmed-cover {
   object-fit: cover;
   width: 100%;
-  height: 177px;
+  height: 600px;
   overflow: hidden;
   object-position: center 40%;
 }
 </style>
 
-
-
-
 <div class="trimmed-cover">
   <img src="https://github.com/inigmat/home/assets/62841094/fe487086-a2b1-492d-94aa-3e6c07b7da50" alt="Tetris">
 </div>
-
 
 <p align="center">
   <em>Tetris Vectors by Vecteezy: https://www.vecteezy.com/free-vector/tetris</em>
