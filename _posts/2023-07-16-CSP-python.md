@@ -5,6 +5,30 @@ date: 2023-07-16
 
 >This article was originally published on July 15, 2023 on [linkedin.com](https://www.linkedin.com/pulse/mastering-material-usage-optimization-your-projects-ilgiz-nigmatullin)
 
+<style>
+  .image-container {
+    width: 900px;
+    height: 600px;
+    overflow: hidden;
+  }
+
+  .image-container img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+  }
+</style>
+
+<p align="center">
+<div class="image-container">
+  <img src="https://github.com/inigmat/home/assets/62841094/fe487086-a2b1-492d-94aa-3e6c07b7da50" alt="Tetris" width="900" height="600">
+</div>
+</p>
+
+<p align="center">
+  <em>Tetris Vectors by Vecteezy: https://www.vecteezy.com/free-vector/tetris</em>
+</p>
+
 ### Intro
 
 In the previous [post](https://inigmat.github.io/home/2023/06/27/Cutting_calcs.html), I shared links to some ready-to-use online calculators that provide a quick tool for finding the optimal amount of materials to order for your project. However, what if you want to add additional features to these calculators or work around limitations like the number of parts? In this article, I will show you how to write Python code to solve this problem and create your own flexible solution.
