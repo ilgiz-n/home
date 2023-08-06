@@ -1,5 +1,5 @@
 ---
-title: "Improving Project Planning To Enhance Market Capitalization"
+title: "Improving Project Planning To Increase Value Of The Firm"
 date: 2019-02-05
 ---
 
