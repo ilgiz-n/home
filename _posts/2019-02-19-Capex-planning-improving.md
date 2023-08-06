@@ -1,5 +1,5 @@
 ---
-title: "Rosneft Financial Report 2018: Potential for Capitalization Growth"
+title: "Improving Project Planning To Enhance Market Capitalization"
 date: 2019-02-05
 ---
 
