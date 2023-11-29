@@ -7,7 +7,7 @@ date: 2023-06-27
 
 
 <p align="center">
-  <img src="https://media.licdn.com/dms/image/D4E12AQHIYPte15EPQQ/article-cover_image-shrink_600_2000/0/1687851932456?e=1693440000&v=beta&t=THsM_gSYV5vzzDvbnb-OQesNDXMDNfpFOw5gVH0Umys" alt="Картинка">
+  <img src="https://media.licdn.com/dms/image/D4E12AQHIYPte15EPQQ/article-cover_image-shrink_720_1280/0/1687851932456?e=1706745600&v=beta&t=spcewpxvIoDtnQ1K2-VqGe9s_Yr83hwmDCRcwMMFAY8" alt="Cut">
 </p>
 <p align="center">
   <em>Photo by Anamul Rezwan: https://www.pexels.com/photo/cut-off-saw-cutting-metal-with-sparks-1145434/</em>
