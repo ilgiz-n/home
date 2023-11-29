@@ -16,7 +16,7 @@ date: 2023-07-16
 </style>
 
 <div class="trimmed-cover">
-  <img src="https://media.licdn.com/dms/image/D4E12AQGRiLb98y0mIg/article-cover_image-shrink_720_1280/0/1689256150839?e=1695254400&v=beta&t=_tRuoeDDpoDlIMHphobFEC7xoXJxOXC8HLo3uwsy6r0" alt="Tetris">
+  <img src="https://media.licdn.com/dms/image/D4E12AQGRiLb98y0mIg/article-cover_image-shrink_720_1280/0/1689256150839?e=1706745600&v=beta&t=2vZ8l0GfnWWtLq6Z6yETEXpL4tdoB_hZdU6su4nU3VM" alt="Tetris">
 </div>
 
 <p align="center">
