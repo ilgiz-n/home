@@ -1,6 +1,6 @@
 ---
 title: Optimizing Project Planning and Material transportation
-date: 2023-11-30
+date: 2023-11-29
 ---
 
 >This article was originally published on November 26, 2023 on [linkedin.com](https://www.linkedin.com/pulse/optimizing-project-planning-material-transportation-ilgiz-nigmatullin)
