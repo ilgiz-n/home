@@ -1,5 +1,5 @@
 ---
-title: "Optimizing Project Planning and Material transportation"
+title: Optimizing Project Planning and Material transportation
 date: 2023-11-30
 ---
 
