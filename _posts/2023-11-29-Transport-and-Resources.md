@@ -56,7 +56,9 @@ CPLEX can solve it in this way, getting a total project duration of 285 days:
 
 ![](https://media.licdn.com/dms/image/D4E12AQG7dCbvcQQ7xA/article-inline_image-shrink_1500_2232/0/1701030073157?e=1706745600&v=beta&t=Imc8leUlTRZDN2lFdNVV1XoZlOkrttXbHbhB3PcPJew)
 
-Profile in the Jupyter Notebook
+<p align="center">
+  <em>Profile in the Jupyter Notebook</em>
+</p>
 
 To clarify the impact of optimization, let's remove the budget and calculate the schedule in Primavera. Now, let's see what results we obtain.
 
@@ -68,17 +70,23 @@ After optimization, we achieved a project duration of 265 days and a smoothed pr
 
 ![](https://media.licdn.com/dms/image/D4E12AQGZJno1vSaDOw/article-inline_image-shrink_1500_2232/0/1701030199100?e=1706745600&v=beta&t=F3V-Qr2BlD0oDPQyEzV8LE6bMHWBpO56O0j8i4ZpxVk)
 
-Profile in the Jupyter Notebook
+<p align="center">
+  <em>Profile in the Jupyter Notebook</em>
+</p>
 
 ![](https://media.licdn.com/dms/image/D4E12AQHQMvjcgkrAIA/article-inline_image-shrink_1000_1488/0/1701030268655?e=1706745600&v=beta&t=86LnuugnGNK9BpTGzhJ7s3u6q7_IM3CNAEUuvCvP9Cc)
 
-Gantt chart and resource profile for LP optimized schedule
+<p align="center">
+  <em>Gantt chart and resource profile for LP optimized schedule</em>
+</p>
 
 While, without prior optimization with a simple calculation of the dates, we get a schedule for a project duration of 210 days ([XER file](https://drive.google.com/file/d/1BKWCi0ABGzcqUNfvvWt7CXl_-6P2J8v6/view?usp=share_link)), but featuring resource overallocation:
 
 ![](https://media.licdn.com/dms/image/D4E12AQHFof6bC6eceA/article-inline_image-shrink_1000_1488/0/1701030289976?e=1706745600&v=beta&t=ZkyX_kH-FHNjgvjxUuZA9JwJVoh4ycF18X-CMeEyT4c)
 
-Gantt chart and resource profile after schedule P6 calculation
+<p align="center">
+  <em>Gantt chart and resource profile after schedule P6 calculation</em>
+</p>
 
 And 376 days ([XER file](https://drive.google.com/file/d/1BKWCi0ABGzcqUNfvvWt7CXl_-6P2J8v6/view?usp=share_link)) of project duration with resource auto levelling:
 
