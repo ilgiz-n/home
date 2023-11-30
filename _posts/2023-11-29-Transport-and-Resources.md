@@ -38,7 +38,7 @@ Here we have our solution:
 
 ![](https://media.licdn.com/dms/image/D4E12AQFlWV0OnaBCiQ/article-inline_image-shrink_1500_2232/0/1701030033978?e=1706745600&v=beta&t=teGbeX5rdxm8zi8OI-5ZX7xsZG9Evk3FT64YzLeUE7U)
 
-Part 2: Optimal Resource Allocation
+### Part 2: Optimal Resource Allocation
 
 When it comes to our scheduling endeavours, we'd prefer terming it as optimal resource allocation. Undoubtedly, the pivotal aspect of project planning revolves around allocating resources in a manner that ensures a seamless and balanced distribution.
 
@@ -92,7 +92,10 @@ And 376 days ([XER file](https://drive.google.com/file/d/1BKWCi0ABGzcqUNfvvWt7CX
 
 ![](https://media.licdn.com/dms/image/D4E12AQGhKjyUk6ttsw/article-inline_image-shrink_1000_1488/0/1701030312769?e=1706745600&v=beta&t=KijP18yQXltwunUVqzjDAPDGlX1U5cIEaqXF1qy-RQo)
 
-Gantt chart and resource profile after schedule P6 resource auto levelling:
+<p align="center">
+  <em>Gantt chart and resource profile after schedule P6 resource auto levelling</em>
+</p>
+
 
 Certainly, we can manually address overallocation by adjusting activity dates and reaching an optimal solution through compromise. Yet, the question remains: will this truly be the best solution?
 
