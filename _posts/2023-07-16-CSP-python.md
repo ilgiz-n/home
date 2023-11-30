@@ -79,7 +79,7 @@ Now that we have seen how this solution works, let's apply it to larger structur
 We have prepared a table with the demand from the design documentation:
 
 <p align="center">
-  <img src="https://media.licdn.com/dms/image/D4E12AQFCFa6Av_mGsQ/article-inline_image-shrink_1500_2232/0/1689400233647?e=1695254400&v=beta&t=7WVESex47NKbleTWULLc_zeByMowdVDOMGZnhQfoJXg" alt="Картинка">
+  <img src="https://media.licdn.com/dms/image/D4E12AQHkIKi1cCBszg/article-inline_image-shrink_1500_2232/0/1689400156113?e=1706745600&v=beta&t=HM3lEhsFwwqEr9L_s0Z-xBQ_lVeDDoW6C49hhJhLglM" alt="Table">
 </p>
 
 To see the full code and results, you can refer to the Jupyter notebook available at the following link: <https://nbviewer.org/github/inigmat/exupery/blob/main/CSP_binpacking.ipynb>
