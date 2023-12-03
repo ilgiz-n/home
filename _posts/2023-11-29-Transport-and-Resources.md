@@ -28,7 +28,11 @@ In the [tutorial](https://ibmdecisionoptimization.github.io/tutorials/html/Beyo
 
 ![](https://media.licdn.com/dms/image/D4E12AQEzjVF8kaNuIA/article-inline_image-shrink_1500_2232/0/1701029994147?e=1706745600&v=beta&t=gnOT_0JamvhqgJ8-diqSQnQumHa3ndkTEhgtgz-LHWQ)
 
-The Transportation Problem
+<p align="center">
+  <em>The Transportation Problem example</em>
+</p>
+
+
 
 I'm not dropping the code here, but if you want to check it, click the link below. 
 
