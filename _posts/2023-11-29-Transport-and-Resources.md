@@ -42,7 +42,7 @@ Here we have our solution:
 
 When it comes to our scheduling endeavours, we'd prefer terming it as optimal resource allocation. Undoubtedly, the pivotal aspect of project planning revolves around allocating resources in a manner that ensures a seamless and balanced distribution.
 
-Planning software, such as Primavera, can automatically resolve schedules using the critical path method or resource levelling. In the first option, it calculates the optimal project duration without considering the availability of resources. Simultaneously, the second option, resource levelling, does take resource availability into account. However, it does not consider task scheduling for the optimal total project duration. It resolves conflicts by adjusting task dates, allowing tasks [to be delayed ](https://docs.oracle.com/cd/F51303_01/English/User_Guides/p6_pro_user/helpmain.htm?toc.htm?leveling_resources.htm)without considering the project deadline.
+Planning software, such as Primavera, can automatically resolve schedules using the critical path method or resource levelling. In the first option, it calculates the optimal project duration without considering the availability of resources. On the other hand, the second option, resource levelling, while taking resource availability into account, does not consider task deadlines for the optimal total project duration. It resolves conflicts by adjusting task dates, allowing tasks [to be delayed ](https://docs.oracle.com/cd/F51303_01/English/User_Guides/p6_pro_user/helpmain.htm?toc.htm?leveling_resources.htm)without considering the project deadline.
 
 All of this is not to mention the consideration of financial schedules.
 
