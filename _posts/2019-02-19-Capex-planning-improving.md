@@ -11,7 +11,7 @@ On February 5, Rosneft published its financial report for the year 2018, resulti
 
 **Part 1. Measuring the quality of project planning.**
 
-A few years ago, I conducted a small study on improving the quality of capital expenditure planning. The study proposed integrating estimated data (cost, labor and material resources, physical volumes) with the construction project's network schedule. The objective was to utilize both planned data from estimates and actual data from work completion certificates. Additionally, specialized software was identified and tested to automate this process.
+A few years ago, I conducted a small study on improving the quality of capital expenditure planning. The study proposed integrating estimated data (cost, labor and material resources, physical volumes) with the construction project's network schedule. The objective was to utilize both planned data from estimates and actual data from invoices. Additionally, specialized software was identified and tested to automate this process.
 
 <button onclick="toggleVisibility()">Show/Hide The Presentaion</button>
 <iframe id="myFrame" src="https://onedrive.live.com/embed?resid=6894315705061412%219604&amp;authkey=%21APuQmDptQkp0gX4&amp;em=2&amp;wdAr=1.4444444444444444&amp;wdEaaCheck=1" width="740px" height="447px" frameborder="0" hidden></iframe>
