@@ -19,7 +19,14 @@ While the transportation problem can be solved using other solvers (<https://en.
 
 Picture this: you've got five construction sites and three sand quarries. And there is the task of figuring out the optimal way to distribute sand without burning too much fuel (measured in tonne-kilometres). The details are all laid out in a table:
 
-![Task details table](/home/docs/assets/2023-11-29-Transport-and-Resources/1701029953800.png)
+<p align="center">
+  <em>![Task details table](/home/docs/assets/2023-11-29-Transport-and-Resources/1701029953800.png)</em>
+</p>
+
+
+<p align="center">
+  ![Task details table](/home/docs/assets/2023-11-29-Transport-and-Resources/1701029953800.png)
+</p>
 
 In the [tutorial](https://ibmdecisionoptimization.github.io/tutorials/html/Beyond_Linear_Programming.html) you can find the similar task:
 
