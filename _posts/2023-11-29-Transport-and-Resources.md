@@ -5,6 +5,8 @@ date: 2023-11-29
 
 >This article was originally published on November 26, 2023 on [linkedin.com](https://www.linkedin.com/pulse/optimizing-project-planning-material-transportation-ilgiz-nigmatullin)
 
+![Hunters in the Snow](/home/docs/assets/2023-11-29-Transport-and-Resources/1701008333663.jpeg)
+
 <p align="center">
   <img src="https://media.licdn.com/dms/image/D4E12AQGMG30TR7nVGw/article-cover_image-shrink_720_1280/0/1701008333663?e=1706745600&v=beta&t=IxymyYVw0sbdqyc_FnjehaXnJ8dbwwf-rKJGoGY2imQ" alt="Hunters in the Snow">
 </p>
