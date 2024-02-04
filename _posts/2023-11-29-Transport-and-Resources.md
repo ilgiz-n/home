@@ -24,9 +24,9 @@ Picture this: you've got five construction sites and three sand quarries. And th
 </p>
 
 
-<p align="center">
-  ![Task details table](/home/docs/assets/2023-11-29-Transport-and-Resources/1701029953800.png)
-</p>
+<center>
+  <img src="/home/docs/assets/2023-11-29-Transport-and-Resources/1701029953800.png">
+</center>
 
 In the [tutorial](https://ibmdecisionoptimization.github.io/tutorials/html/Beyond_Linear_Programming.html) you can find the similar task:
 
