@@ -8,9 +8,6 @@ date: 2023-11-29
 ![Hunters in the Snow](/home/docs/assets/2023-11-29-Transport-and-Resources/1701008333663.jpeg)
 
 <p align="center">
-  <img src="https://media.licdn.com/dms/image/D4E12AQGMG30TR7nVGw/article-cover_image-shrink_720_1280/0/1701008333663?e=1706745600&v=beta&t=IxymyYVw0sbdqyc_FnjehaXnJ8dbwwf-rKJGoGY2imQ" alt="Hunters in the Snow">
-</p>
-<p align="center">
   <em>Pieter Bruegel the Elder. "Hunters in the Snow"</em>
 </p>
 
@@ -22,13 +19,13 @@ While the transportation problem can be solved using other solvers (<https://en.
 
 Picture this: you've got five construction sites and three sand quarries. And there is the task of figuring out the optimal way to distribute sand without burning too much fuel (measured in tonne-kilometres). The details are all laid out in a table:
 
-![](https://media.licdn.com/dms/image/D4E12AQHzgmtYJSWUfw/article-inline_image-shrink_1500_2232/0/1701029953800?e=1706745600&v=beta&t=oyAGpzayEKQK9HXq_7z4x3qpLMRzdJrGH18U61fDdqw)
+![Task details table](home/docs/assets/2023-11-29-Transport-and-Resources/1701029953800.png)
 
 In the [tutorial](https://ibmdecisionoptimization.github.io/tutorials/html/Beyond_Linear_Programming.html) you can find the similar task:
 
 > The supply capacity is indicated with the supply nodes, while the demand is indicated with the demand nodes, and the transportation costs are indicated on the arcs.
 
-![](https://media.licdn.com/dms/image/D4E12AQEzjVF8kaNuIA/article-inline_image-shrink_1500_2232/0/1701029994147?e=1706745600&v=beta&t=gnOT_0JamvhqgJ8-diqSQnQumHa3ndkTEhgtgz-LHWQ)
+![Supply nodes example](home/docs/assets/2023-11-29-Transport-and-Resources/1701029994147.png)
 
 <p align="center">
   <em>The Transportation Problem example</em>
@@ -42,7 +39,7 @@ I'm not dropping the code here, but if you want to check it, click the link belo
 
 Here we have our solution:
 
-![](https://media.licdn.com/dms/image/D4E12AQFlWV0OnaBCiQ/article-inline_image-shrink_1500_2232/0/1701030033978?e=1706745600&v=beta&t=teGbeX5rdxm8zi8OI-5ZX7xsZG9Evk3FT64YzLeUE7U)
+![Supply nodes Solution](home/docs/assets/2023-11-29-Transport-and-Resources/1701030033978.png)
 
 ### Part 2: Optimal Resource Allocation
 
@@ -60,7 +57,7 @@ As an illustration, consider[ Chapter 5 in the CPLEX Tutorial](https://ibmdecis
 
 CPLEX can solve it in this way, getting a total project duration of 285 days:
 
-![](https://media.licdn.com/dms/image/D4E12AQG7dCbvcQQ7xA/article-inline_image-shrink_1500_2232/0/1701030073157?e=1706745600&v=beta&t=Imc8leUlTRZDN2lFdNVV1XoZlOkrttXbHbhB3PcPJew)
+![Schedule profile 285 days](home/docs/assets/2023-11-29-Transport-and-Resources/1701030073157.png)
 
 <p align="center">
   <em>Profile in the Jupyter Notebook</em>
@@ -74,13 +71,13 @@ Let's start with calculation with CPLEX.
 
 After optimization, we achieved a project duration of 265 days and a smoothed profile without overallocation ([XER file](https://drive.google.com/file/d/1ic_RhFAEFhJ00wwWv-ArmxC0iiCxs7sR/view?usp=share_link)).
 
-![](https://media.licdn.com/dms/image/D4E12AQGZJno1vSaDOw/article-inline_image-shrink_1500_2232/0/1701030199100?e=1706745600&v=beta&t=F3V-Qr2BlD0oDPQyEzV8LE6bMHWBpO56O0j8i4ZpxVk)
+![Schedule profile 265 days](home/docs/assets/2023-11-29-Transport-and-Resources/1701030199100.png)
 
 <p align="center">
   <em>Profile in the Jupyter Notebook</em>
 </p>
 
-![](https://media.licdn.com/dms/image/D4E12AQHQMvjcgkrAIA/article-inline_image-shrink_1000_1488/0/1701030268655?e=1706745600&v=beta&t=86LnuugnGNK9BpTGzhJ7s3u6q7_IM3CNAEUuvCvP9Cc)
+![Primavera Gantt chart 265 days](home/docs/assets/2023-11-29-Transport-and-Resources/1701030268655.png)
 
 <p align="center">
   <em>Gantt chart and resource profile for LP optimized schedule</em>
@@ -88,7 +85,7 @@ After optimization, we achieved a project duration of 265 days and a smoothed pr
 
 While, without prior optimization with a simple calculation of the dates, we get a schedule for a project duration of 210 days ([XER file](https://drive.google.com/file/d/1BKWCi0ABGzcqUNfvvWt7CXl_-6P2J8v6/view?usp=share_link)), but featuring resource overallocation:
 
-![](https://media.licdn.com/dms/image/D4E12AQHFof6bC6eceA/article-inline_image-shrink_1000_1488/0/1701030289976?e=1706745600&v=beta&t=ZkyX_kH-FHNjgvjxUuZA9JwJVoh4ycF18X-CMeEyT4c)
+![Primavera Gantt chart 210 days](home/docs/assets/2023-11-29-Transport-and-Resources/1701030289976.png)
 
 <p align="center">
   <em>Gantt chart and resource profile after schedule P6 calculation</em>
@@ -96,7 +93,7 @@ While, without prior optimization with a simple calculation of the dates, we get
 
 And 376 days ([XER file](https://drive.google.com/file/d/1BKWCi0ABGzcqUNfvvWt7CXl_-6P2J8v6/view?usp=share_link)) of project duration with resource auto levelling:
 
-![](https://media.licdn.com/dms/image/D4E12AQGhKjyUk6ttsw/article-inline_image-shrink_1000_1488/0/1701030312769?e=1706745600&v=beta&t=KijP18yQXltwunUVqzjDAPDGlX1U5cIEaqXF1qy-RQo)
+![Primavera Gantt chart 376 days](home/docs/assets/2023-11-29-Transport-and-Resources/1701030312769.png)
 
 <p align="center">
   <em>Gantt chart and resource profile after schedule P6 resource auto levelling</em>
