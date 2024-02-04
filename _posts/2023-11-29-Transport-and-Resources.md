@@ -19,14 +19,12 @@ While the transportation problem can be solved using other solvers (<https://en.
 
 Picture this: you've got five construction sites and three sand quarries. And there is the task of figuring out the optimal way to distribute sand without burning too much fuel (measured in tonne-kilometres). The details are all laid out in a table:
 
-<p align="center">
-  <em>![Task details table](/home/docs/assets/2023-11-29-Transport-and-Resources/1701029953800.png)</em>
-</p>
-
 
 <center>
-  <img src="/home/docs/assets/2023-11-29-Transport-and-Resources/1701029953800.png">
+  <img src="/home/docs/assets/2023-11-29-Transport-and-Resources/1701029953800.png" 
+  alt="Task details table">
 </center>
+
 
 In the [tutorial](https://ibmdecisionoptimization.github.io/tutorials/html/Beyond_Linear_Programming.html) you can find the similar task:
 
@@ -46,7 +44,11 @@ I'm not dropping the code here, but if you want to check it, click the link belo
 
 Here we have our solution:
 
-![Supply nodes Solution](/home/docs/assets/2023-11-29-Transport-and-Resources/1701030033978.png)
+<center>
+  <img src="/home/docs/assets/2023-11-29-Transport-and-Resources/1701030033978.png" 
+  alt="Supply nodes Solution">
+</center>
+
 
 ### Part 2: Optimal Resource Allocation
 
