@@ -34,7 +34,6 @@ In the [tutorial](https://ibmdecisionoptimization.github.io/tutorials/html/Beyo
   <img src="/home/docs/assets/2023-11-29-Transport-and-Resources/1701029994147.png" alt="Supply nodes Example">
 </center>
 
-
 <p align="center">
   <em>The Transportation Problem example</em>
 </p>
