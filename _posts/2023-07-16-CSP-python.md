@@ -16,7 +16,7 @@ date: 2023-07-16
 </style>
 
 <div class="trimmed-cover">
-  <img src="https://media.licdn.com/dms/image/D4E12AQGRiLb98y0mIg/article-cover_image-shrink_720_1280/0/1689256150839?e=1706745600&v=beta&t=2vZ8l0GfnWWtLq6Z6yETEXpL4tdoB_hZdU6su4nU3VM" alt="Tetris">
+  <img src="/home/docs/assets/2023-07-16-CSP-python/1689256150839.jpeg" alt="Tetris">
 </div>
 
 <p align="center">
@@ -30,7 +30,7 @@ In the previous [post](https://inigmat.github.io/home/2023/06/27/Cutting_calcs.
 To illustrate the process, we will use the example of a bar schedule for concrete foundations, where we need to cut rebar with specific lengths and quantities.
 
 <p align="center">
-  <img src="https://media.licdn.com/dms/image/D4E12AQHkIKi1cCBszg/article-inline_image-shrink_1500_2232/0/1689400156113?e=1695254400&v=beta&t=goz9fIxjZbQBzIgsvGnK0ojfAdtdflAJIbQTquwJmKQ" alt="Картинка">
+  <img src="/home/docs/assets/2023-07-16-CSP-python/1689400156113.png" alt="Sample data">
 </p>
 
 <p align="center">
@@ -79,7 +79,7 @@ Now that we have seen how this solution works, let's apply it to larger structur
 We have prepared a table with the demand from the design documentation:
 
 <p align="center">
-  <img src="https://media.licdn.com/dms/image/D4E12AQHkIKi1cCBszg/article-inline_image-shrink_1500_2232/0/1689400156113?e=1706745600&v=beta&t=HM3lEhsFwwqEr9L_s0Z-xBQ_lVeDDoW6C49hhJhLglM" alt="Table">
+  <img src="/home/docs/assets/2023-07-16-CSP-python/1689400233647.png" alt="Demand table">
 </p>
 
 To see the full code and results, you can refer to the Jupyter notebook available at the following link: <https://nbviewer.org/github/inigmat/exupery/blob/main/CSP_binpacking.ipynb>
@@ -101,7 +101,7 @@ We also generated a chart showing the cutting plan for the bars.
 
 <p align="center">
   <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTj-Fr6BGuoJlJdEglvPbYqOPi1k0Gwjb4lcTJ2aR8upi6esjDX2p8qej6nsMFF2NqCcjJrPBzsPSTQ/pubhtml?gid=1092469187&single=true">
-    <img src="https://media.licdn.com/dms/image/D4E12AQHw04l3XegRkg/article-inline_image-shrink_1000_1488/0/1689402028786?e=1695254400&v=beta&t=BKaud21xLZyBllcGnR9JzNjJztdF-qCxmEqxR5LfJ-s" alt="Картинка">
+    <img src="/home/docs/assets/2023-07-16-CSP-python/1689402028786.png" alt="Results table">
   </a>
 </p>
 
