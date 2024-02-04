@@ -30,7 +30,10 @@ In the [tutorial](https://ibmdecisionoptimization.github.io/tutorials/html/Beyo
 
 > The supply capacity is indicated with the supply nodes, while the demand is indicated with the demand nodes, and the transportation costs are indicated on the arcs.
 
-![Supply nodes example](/home/docs/assets/2023-11-29-Transport-and-Resources/1701029994147.png)
+<center>
+  <img src="/home/docs/assets/2023-11-29-Transport-and-Resources/1701029994147.png" alt="Supply nodes Example">
+</center>
+
 
 <p align="center">
   <em>The Transportation Problem example</em>
@@ -45,8 +48,7 @@ I'm not dropping the code here, but if you want to check it, click the link belo
 Here we have our solution:
 
 <center>
-  <img src="/home/docs/assets/2023-11-29-Transport-and-Resources/1701030033978.png" 
-  alt="Supply nodes Solution">
+  <img src="/home/docs/assets/2023-11-29-Transport-and-Resources/1701030033978.png" alt="Supply nodes Solution">
 </center>
 
 
