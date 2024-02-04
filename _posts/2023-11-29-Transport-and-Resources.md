@@ -19,13 +19,13 @@ While the transportation problem can be solved using other solvers (<https://en.
 
 Picture this: you've got five construction sites and three sand quarries. And there is the task of figuring out the optimal way to distribute sand without burning too much fuel (measured in tonne-kilometres). The details are all laid out in a table:
 
-![Task details table](home/docs/assets/2023-11-29-Transport-and-Resources/1701029953800.png)
+![Task details table](/home/docs/assets/2023-11-29-Transport-and-Resources/1701029953800.png)
 
 In the [tutorial](https://ibmdecisionoptimization.github.io/tutorials/html/Beyond_Linear_Programming.html) you can find the similar task:
 
 > The supply capacity is indicated with the supply nodes, while the demand is indicated with the demand nodes, and the transportation costs are indicated on the arcs.
 
-![Supply nodes example](home/docs/assets/2023-11-29-Transport-and-Resources/1701029994147.png)
+![Supply nodes example](/home/docs/assets/2023-11-29-Transport-and-Resources/1701029994147.png)
 
 <p align="center">
   <em>The Transportation Problem example</em>
@@ -39,7 +39,7 @@ I'm not dropping the code here, but if you want to check it, click the link belo
 
 Here we have our solution:
 
-![Supply nodes Solution](home/docs/assets/2023-11-29-Transport-and-Resources/1701030033978.png)
+![Supply nodes Solution](/home/docs/assets/2023-11-29-Transport-and-Resources/1701030033978.png)
 
 ### Part 2: Optimal Resource Allocation
 
@@ -57,7 +57,7 @@ As an illustration, consider[ Chapter 5 in the CPLEX Tutorial](https://ibmdecis
 
 CPLEX can solve it in this way, getting a total project duration of 285 days:
 
-![Schedule profile 285 days](home/docs/assets/2023-11-29-Transport-and-Resources/1701030073157.png)
+![Schedule profile 285 days](/home/docs/assets/2023-11-29-Transport-and-Resources/1701030073157.png)
 
 <p align="center">
   <em>Profile in the Jupyter Notebook</em>
@@ -71,13 +71,13 @@ Let's start with calculation with CPLEX.
 
 After optimization, we achieved a project duration of 265 days and a smoothed profile without overallocation ([XER file](https://drive.google.com/file/d/1ic_RhFAEFhJ00wwWv-ArmxC0iiCxs7sR/view?usp=share_link)).
 
-![Schedule profile 265 days](home/docs/assets/2023-11-29-Transport-and-Resources/1701030199100.png)
+![Schedule profile 265 days](/home/docs/assets/2023-11-29-Transport-and-Resources/1701030199100.png)
 
 <p align="center">
   <em>Profile in the Jupyter Notebook</em>
 </p>
 
-![Primavera Gantt chart 265 days](home/docs/assets/2023-11-29-Transport-and-Resources/1701030268655.png)
+![Primavera Gantt chart 265 days](/home/docs/assets/2023-11-29-Transport-and-Resources/1701030268655.png)
 
 <p align="center">
   <em>Gantt chart and resource profile for LP optimized schedule</em>
@@ -85,7 +85,7 @@ After optimization, we achieved a project duration of 265 days and a smoothed pr
 
 While, without prior optimization with a simple calculation of the dates, we get a schedule for a project duration of 210 days ([XER file](https://drive.google.com/file/d/1BKWCi0ABGzcqUNfvvWt7CXl_-6P2J8v6/view?usp=share_link)), but featuring resource overallocation:
 
-![Primavera Gantt chart 210 days](home/docs/assets/2023-11-29-Transport-and-Resources/1701030289976.png)
+![Primavera Gantt chart 210 days](/home/docs/assets/2023-11-29-Transport-and-Resources/1701030289976.png)
 
 <p align="center">
   <em>Gantt chart and resource profile after schedule P6 calculation</em>
@@ -93,7 +93,7 @@ While, without prior optimization with a simple calculation of the dates, we get
 
 And 376 days ([XER file](https://drive.google.com/file/d/1BKWCi0ABGzcqUNfvvWt7CXl_-6P2J8v6/view?usp=share_link)) of project duration with resource auto levelling:
 
-![Primavera Gantt chart 376 days](home/docs/assets/2023-11-29-Transport-and-Resources/1701030312769.png)
+![Primavera Gantt chart 376 days](/home/docs/assets/2023-11-29-Transport-and-Resources/1701030312769.png)
 
 <p align="center">
   <em>Gantt chart and resource profile after schedule P6 resource auto levelling</em>
