@@ -1,18 +1,25 @@
 ---
-title: Reading XER files in ipython notebooks
+title: Parsing XER files data
 date: 2024-02-24
 ---
 
 ![Structure](/home/docs/assets/2024-02-24-XER-reading/pexels-ave-calvar-martinez-5610090.jpg)
 
-<a href="https://colab.research.google.com/github/inigmat/exupery/blob/main/XER_reading.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+This post is an extension of the previous one ["Optimizing Project Planning and Material transportation"](https://inigmat.github.io/home/2023/11/29/Transport-and-Resources.html). The previous post describes some techniques how for optimizing the schedule, where the data is prepared manually. So, the current article will show the method of obtaining the data from Primavera P6 project files (*.xer).
+
+Looking for libraries in Python programming language, I have found two:
+- [xerparser](https://pypi.org/project/xerparser/)  
+- [PyP6Xer](https://pypi.org/project/PyP6Xer/).
+
+Both look to have the same features at first glance. The first one is chosen for this case.
+
+The content below is based on the ipython notebook, so there is an option to check it out on [nbviewer.org](https://nbviewer.org/github/inigmat/exupery/blob/main/XER_reading.ipynb).
 
 # Intro
 
 This notebook demonstrates an example of how to use [the Primavera P6 xer files reader](https://pypi.org/project/xerparser/0.10.3/) library for data preparation.
 
-
-The XER file contains the same data presented in the [notebook](https://nbviewer.org/github/inigmat/exupery/blob/main/Schedule_CPLEX.ipynb) which is shown in the ["Optimizing Project Planning and Material transportation"](https://inigmat.github.io/home/2023/11/29/Transport-and-Resources.html) post.
+The XER file contains the same data presented in the [notebook](https://nbviewer.org/github/inigmat/exupery/blob/main/Schedule_CPLEX.ipynb).
 
 By obtaining the file via URL link, the required data—task names, durations, precedences, and release dates (intervals between each house's earliest starting date)—is transformed into Python objects.
 
@@ -36,8 +43,6 @@ except ImportError:
         print("An error occurred while installing xerparser:", e)
 ```
 
-    xerparser is already installed.
-
 
 # Getting the XER file
 
@@ -57,10 +62,8 @@ except requests.exceptions.RequestException as e:
     print(f"An error occurred: {e}")
 ```
 
-    Request successful!
 
-
-# Read the downladed file with checking for errors
+# Read the downloaded file with checking for errors
 
 
 ```python
@@ -112,17 +115,10 @@ We skip the first two levels using WBS_LVL variable
 WBS_LVL = 2
 houses = [obj.name for obj in project.wbs_nodes[WBS_LVL:]]
 NbHouses= len(houses)
-houses
 ```
 
 
-
-
-    ['House 1', 'House 2', 'House 3', 'House 4', 'House 5']
-
-
-
-# Obtain the labor resources of the project to get number of workers
+# Obtain the labor resources of the project to get the number of workers
 
 
 ```python
@@ -163,10 +159,7 @@ for task in project.tasks:
 ```python
 tasks_df.head(15)
 ```
-
-
-
-
+Output:
 
   <div id="df-11e5c0b1-13df-42bc-980f-216548301c26" class="colab-df-container">
     <div>
@@ -546,7 +539,7 @@ tasks_df.head(15)
 
 
 
-# Get the list of tasknames. Filter by wbs_id due to repeating structure of activites on each house
+# Get the list of task names. Filter by wbs_id due to the repeating structure of activities on each house
 
 
 ```python
@@ -591,15 +584,7 @@ lags = {}
 for rel in project.relationships:
     if str(rel.predecessor.type) == 'TaskType.TT_Mile':
       lags[rel.successor.wbs.name] = rel.lag
-lags
 ```
-
-
-
-
-    {'House 2': 0, 'House 1': 31, 'House 3': 90, 'House 4': 120, 'House 5': 90}
-
-
 
 
 ```python
@@ -619,6 +604,8 @@ print("ReleaseDate =", ReleaseDate, "\n")
 print("Precedences =", Precedences, "\n")
 ```
 
+Output:
+
     NbWorkers = 3 
     
     NbHouses = 5 
@@ -630,5 +617,3 @@ print("Precedences =", Precedences, "\n")
     ReleaseDate = [31, 0, 90, 120, 90] 
     
     Precedences = [('Masonry', 'Carpentry'), ('Masonry', 'Plumbing'), ('Masonry', 'Ceiling'), ('Carpentry', 'Roofing'), ('Plumbing', 'Facade'), ('Plumbing', 'Garden'), ('Ceiling', 'Painting'), ('Roofing', 'Windows'), ('Roofing', 'Facade'), ('Roofing', 'Garden'), ('Painting', 'Moving'), ('Windows', 'Moving'), ('Facade', 'Moving'), ('Garden', 'Moving')] 
-    
-
